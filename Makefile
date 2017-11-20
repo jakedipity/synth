@@ -4,8 +4,8 @@ DEBUGDIR = $(BUILDDIR)/debug
 RELEASEDIR = $(BUILDDIR)/release
 SRCDIR = src
 BINDIR = bin
-DEBUGTARGET = $(BINDIR)/debug/openparse
-RELEASETARGET = $(BINDIR)/release/openparse
+DEBUGTARGET = $(BINDIR)/debug/openparse.out
+RELEASETARGET = $(BINDIR)/release/openparse.out
 
 CC = g++
 CFLAGS = -I$(IDIR) -std=c++11
