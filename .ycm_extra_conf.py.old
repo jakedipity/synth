@@ -1,0 +1,11 @@
+def FlagsForFile( filename, **kwargs ):
+    return {
+        'flags': [
+            '-std=c++11',
+            '-x',
+            'c++',
+            '-Wall',
+            '-I', 'include',
+            '-isystem', '/usr/include'
+        ]
+    }
